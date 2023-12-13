@@ -12,7 +12,7 @@ jobs:
 
       - name: run linux commands
         run: |
-          ehcho "hello"
+          echo "hello"
           ls -lart
           cat README.md
       - name: generate ascii artwork
